@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html class="js">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta charset="UTF-8">
+
+		<title>Advent Calendar</title>
+		
+		<script id="sap-ui-bootstrap"
+			src="../../resources/sap-ui-core.js"
+			data-sap-ui-libs="sap.m"
+			data-sap-ui-theme="sap_belize"
+			data-sap-ui-compatVersion="edge"
+			data-sap-ui-preload="async"
+			data-sap-ui-resourceroots='{"de.blogspot.openui5.adventcalendar": ""}'>
+		</script>
+		
+		<script>
+			sap.ui.getCore().attachInit(function() {
+				new sap.ui.core.ComponentContainer({
+					height : "100%",
+					name : "de.blogspot.openui5.adventcalendar"
+				}).placeAt("content");
+			});
+		</script>
+	</head>
+
+	<body class="XsapUiBody" id="content">
+	</body>
+</html>

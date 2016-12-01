@@ -1,0 +1,90 @@
+<mvc:View controllerName="de.blogspot.openui5.adventcalendar.controller.App" displayBlock="true" height="100%"
+	xmlns:ac="de.blogspot.openui5.adventcalendar.control"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m">
+	<!-- background snow canvas control (fullscreen) -->
+	<ac:Snow backgroundColor="#cc0019" />
+	<!-- ui5 app -->
+	<App class="adventApp sapUiContentPadding" backgroundColor="transparent">
+		<pages>
+			<Page title="OpenUI5 Developer Advent Calendar" backgroundDesign="Transparent" enableScrolling="false">
+				<content>
+					<ac:AdventCalendar>
+						<ac:Day color="#1c2d3f" title="Startup Performance" meta="Frederic Berg" 
+							href="https://blogs.sap.com/2016/10/29/sapui5-application-startup-performance-best-practices/"
+							description="Blog on how to optimize UI5 startup performance." />
+						<ac:Day color="#cc0019" title="UI5 Inspector" meta="SAP SE" 
+							href="https://chrome.google.com/webstore/detail/ui5-inspector/bebecogbafbighhaildooiibipcnbngo" 
+							description="With the UI5 Inspector, you can easily debug and support your OpenUI5 or SAPUI5-based apps." />
+						<ac:Day color="#1c2d3f" title="Download SAPUI5" meta="Helmut Tammen" 
+							href="https://github.com/htammen/sapui5_sources_extract/blob/master/How%20To%20Download%20SAPUI5%20Sources%20from%20SMP.md"
+							description="To download SAPUI5 sources from SMP you need a user account that has access to the download area. If you have such a user follow these instructions." />
+						<ac:Day color="#cc0019" title="Custom Data Types" meta="Pritin Tyagaraj" 
+							href="https://blogs.sap.com/2016/09/16/custom-data-types-in-sapui5/"
+							description="Data types in SAPUI5 are used as a mechanism to validate user input (“hello” isn’t an acceptable value for order quantity, for example) and also to ensure that data is formatted and displayed appropriately on the UI (like displaying 1234567 as 1,234,567 where required)." />
+						<ac:Day color="#1c2d3f" title="Custom UI5 Controls" meta="Andreas Kunz" 
+							href="http://de.slideshare.net/andreaskunz/ui5-controls-ui5con-2016"
+							description="SlideShare explaining what UI5 controls are, how they can be developed." />
+						<ac:Day color="#cc0019" title="PDF Download Option" meta="Munna Mishra" 
+							href="https://blogs.sap.com/2016/11/23/pdf-download-option-with-sapui5/"
+							description="Download data as PDF using third party jsppdf API." />
+						<ac:Day color="#1c2d3f" title="OpenUI5 Nightly SDK" meta="SAP" 
+							href="https://openui5nightly.hana.ondemand.com/"
+							description="Most up-to-date version of the OpenUI5 sdk with nightly updates." />
+						<ac:Day color="#cc0019" title="OpenUI5 Versions" meta="SAP" 
+							href="https://openui5.hana.ondemand.com/versionoverview.html"
+							description="Even though we also provide old versions of OpenUI5 here, we recommend to always upgrade to the latest version in order to get fixes and improvements!" />
+						<ac:Day color="#1c2d3f" title="SAP Press Book" meta="Christiane Goebels, Denise Nepraunig, Thilo Seidel" 
+							href="https://www.sap-press.com/sapui5_3980/"
+							description="The Comprehensive Guide - Transform your apps from simple Hello, World examples to enterprise-grade applications with this guide to UI5! Get the know-how to develop MVC apps, use OData, create data bindings, debug and test code, and more. Learn the dos and don’ts of SAPUI5 and everything in between, whether you’re implementing CRUD operations or writing your own controls. The dawn of the user is here. Can your apps keep up?" />
+						<ac:Day color="#cc0019" title="StandardListItem" meta="Emanuele Ricci" 
+							href="https://blogs.sap.com/2016/10/11/extending-standardlistitem/"
+							description="Example on how to extend the StandardListItem to support the enable/disable flag." />
+						<ac:Day color="#1c2d3f" title="Manifest JSON Model" meta="Emanuele Ricci" 
+							href="https://blogs.sap.com/2016/10/11/sapui5-load-local-json-model-directly-manifest.json/"
+							description="Load local JSON model directly from the manifest.json" />
+						<ac:Day color="#cc0019" title="Dynamic Table Image" meta="Ravi Varma Indukuri" 
+							href="https://blogs.sap.com/2016/08/26/css-trick-that-adds-dynamic-images-to-background-of-any-sapui5-controle/"
+							description="CSS trick that adds dynamic images to background of any SAPUI5 Control." />
+						<ac:Day color="#1c2d3f" title="QR Codes Control" meta="Jan Penninkhof" 
+							href="https://github.com/jpenninkhof/openui5-qrcode/"
+							description="This control encodes a arbitrary text into a QR code." />
+						<ac:Day color="#cc0019" title="SAP HANA Express" meta="SAP" 
+							href="http://go.sap.com/developer/topics/sap-hana-express.html"
+							description="SAP HANA, express edition is targeted to run in resource-constrained environments and contains a rich set of capabilities for a developer to work with. Free for commercial usage up to 32GB." />
+						<ac:Day color="#1c2d3f" title="Dynamic CSV Table" meta="Sai Vellanki" 
+							href="https://blogs.sap.com/2016/06/20/sapui5-table-dynamic-creation-based-on-csv-data/"
+							description="Upload CSV file and dynamically create a table." />
+						<ac:Day color="#cc0019" title="Offline Capabilities" meta="Cyril Vernet" 
+							href="https://blogs.sap.com/2016/05/19/first-steps-to-create-sapui5-offline-application/"
+							description="How to test the UI5 offline capabilities for cache and local db." />
+						<ac:Day color="#1c2d3f" title="openSAP Course" meta="SAP" 
+							href="https://open.sap.com/courses/ui51"
+							description="Free course offered by SAP to introduce you to the main concepts of the UI development toolkit for HTML5." />
+						<ac:Day color="#cc0019" title="SAPUI5 and OpenUI5" meta="Andreas Kunz" 
+							href="https://blogs.sap.com/2016/04/04/how-sapui5-and-openui5-versions-are-related/"
+							description="How SAPUI5 and OpenUI5 versions are related!" />
+						<ac:Day color="#1c2d3f" title="Bower Search" meta="Bower" 
+							href="https://bower.io/search/?q=ui5"
+							description="Search Bower for UI5 based controls to include into your projects." />
+						<ac:Day color="#cc0019" title="Geo Heatmaps" meta="Christoph Aussem" 
+							href="https://blogs.sap.com/2016/02/10/using-geo-heatmaps-with-sap-ui5/"
+							description="Adding heatmaps on top of geo maps" />
+						<ac:Day color="#1c2d3f" title="ServiceWorker API" meta="Elmar Kuesters" 
+							href="https://blogs.sap.com/2016/01/14/ui5-offline-application-using-serviceworker-api/"
+							description="This project demonstrates how to develop an offline capable OpenUI5 application using the new ServiceWorker API which needs no native code." />
+						<ac:Day color="#cc0019" title="Image Manipulation" meta="Buzek Volker" 
+							href="https://blogs.sap.com/2016/01/06/dynamic-image-manipulation-with-ui5-and-promises/"
+							description="You know that time when manipulating height and width of an image just doesn’t get the job done? This is when a lot of additional players enter the game quickly – HTML5’s canvas, Promises and runtime Image objects." />
+						<ac:Day color="#616161" title="Signature Capture" meta="Rahul Choudhary" 
+							href="https://blogs.sap.com/2016/01/05/signature-capture-control-in-sapui5-using-html5-canvas/"
+							description="Here is a SAPUI5 custom control wrapper around the Signature Pad, which can make it easy for you to use this in your respective SAPUI5 / Fiori applications." />
+						<ac:Day color="#616161" title="Happy Holidays" meta="Holger Schäfer&lt;br/&gt;&lt;br/&gt;&lt;img style='margin: auto;width:100%; height:25vh' src='http://www.pixelstalk.net/wp-content/uploads/2016/04/Holiday-background-pictures-images.jpg' /&gt;" 
+							description="2016 was an amazing year! I want to say thank you to the SAP UI5 Team for their support and i wish you all nice holidays and a happy new year!" />
+						<ac:Day color="#616161" title="Waiting for presents..." inactive="true" />
+					</ac:AdventCalendar>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
