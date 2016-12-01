@@ -55,7 +55,7 @@ sap.ui.define(
 			oRm.write(">");
 			
 			oRm.write("<div class=\"content__block\">");
-				oRm.write("<h3 class=\"content__title\"><a href=\"" + oControl.getHref() + "\" target=\"_new\">" + oControl.getTitle() + "</a></h3>");
+				oRm.write("<h3 class=\"content__title\"><a href=\"" + oControl.getHref() + "\" target=\"_blank\">" + oControl.getTitle() + "</a></h3>");
 				oRm.write("<p class=\"content__description\">" + oControl.getDescription() + "</p>");
 				oRm.write("<p class=\"content__meta\">" + oControl.getMeta() + "</p>");
 			oRm.write("</div>");
