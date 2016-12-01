@@ -1,11 +1,3 @@
-/*!
- * Flickity v2.x UI5 component
- * http://flickity.metafizzy.co/
- * Touch, responsive, flickable carousel UI5 component
- * (c) Copyright 2016 UNIORG Solutions GmbH (8 Developer Team Licence).
- */
- 
-// Provides control uniorg.m.flickity.Gallery.
 sap.ui.define([
     "sap/ui/core/Control",
     "jquery.sap.global",
@@ -92,8 +84,6 @@ sap.ui.define([
 			}
 			
 			if (!this.isRendered) {
-				//this._init();
-				//var $calendarEl = document.querySelector("#" + this.getId());
 				var $calendarEl = document.querySelector(".calendar");
 				new AdventCalendar($calendarEl);
 				

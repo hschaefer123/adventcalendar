@@ -1,4 +1,3 @@
-// Provides control uniorg.m.flickity.Gallery.
 sap.ui.define([
     "sap/ui/core/Control",
     "jquery.sap.global"
@@ -59,26 +58,7 @@ sap.ui.define([
 		},
 			
 		/**
-		 * destroy flickity
-		 */
-		 /*
-		onBeforeRendering : function() {
-			if (this._$Flickity && this._$Flickity.data("flickity")) {
-			    // unbind event listener
-			    this._$Flickity.off("select.flickity", this.onCellSelect);
-				this._$Flickity.off("settle.flickity", this.onCellSettleSelect);
-			    this._$Flickity.off( "staticClick.flickity", this.onStaticCellPress);
-				this._$Flickity.flickity("destroy");
-				this._$Flickity = null;
-			}
-			if (Control.prototype.onBeforeRendering) {
-				Control.prototype.onBeforeRendering.apply(this, arguments);
-			}
-		},
-		*/
-
-		/**
-		 * initialize flickity
+		 * after rendering
 		 */
 		onAfterRendering : function() {
 			if (Control.prototype.onAfterRendering) {
@@ -86,13 +66,6 @@ sap.ui.define([
 			}
 			
 			this._init();
-			
-			/*
-			sap.ui.core.ResizeHandler.register(this.getDomRef(), this._resize.bind(this);
-			sap.ui.core.ResizeHandler.register(this.getDomRef(), function() {
-				this._resize());
-			}.bind(this));
-			*/
 		},
 		
 		_init : function() {

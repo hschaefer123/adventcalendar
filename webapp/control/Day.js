@@ -27,18 +27,6 @@ sap.ui.define(
 					type: "string"
 				}
 			}
-			/*
-			aggregations: {
-				content: {
-					type: "sap.ui.core.Control",
-					multiple: false
-				}
-			},
-			events: {
-                tap : {},
-                press : {}
-			//}
-			*/
 		},
 		
 		renderer: function(oRm, oControl) {
@@ -60,7 +48,6 @@ sap.ui.define(
 				oRm.write("<p class=\"content__meta\">" + oControl.getMeta() + "</p>");
 			oRm.write("</div>");
 			
-			//oRm.renderControl(oControl.getContent());
 			oRm.write("</div>");
 		}
 		
