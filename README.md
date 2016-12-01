@@ -1,5 +1,5 @@
 # Advent Calendar
-## [OpenUI5 Developer Blog](http://openui5.blogspot.com/2016/11/advent-calendar.html)
+## [OpenUI5 Developer Blog](http://openui5.blogspot.com/2016/12/advent-calendar.html)
 
 >UI5 demo showing an advent calendar with links to interessting topics concerning UI5 development.
 > 
