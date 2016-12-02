@@ -1,4 +1,5 @@
 <mvc:View controllerName="de.blogspot.openui5.adventcalendar.controller.App" displayBlock="true" height="100%"
+	xmlns:core="sap.ui.core"
 	xmlns:ac="de.blogspot.openui5.adventcalendar.control"
 	xmlns:mvc="sap.ui.core.mvc"
 	xmlns="sap.m">
@@ -87,4 +88,5 @@
 			</Page>
 		</pages>
 	</App>
+	<core:Fragment fragmentName="de.blogspot.openui5.adventcalendar.view.GitHubRibbon" type="XML" />
 </mvc:View>

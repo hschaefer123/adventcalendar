@@ -6,8 +6,8 @@
   "build": {
     "targetFolder": "dist",
     "sourceFolder": "webapp",
-    "buildRequired": true,
-    "lastBuildDateTime": "Thu, 01 Dec 2016 08:35:26 GMT"
+    "buildRequired": false,
+    "lastBuildDateTime": "Fri, 02 Dec 2016 10:03:50 GMT"
   },
   "generation": [
     {
@@ -38,6 +38,6 @@
   "hcpdeploy": {
     "account": "p1940953245trial",
     "name": "adventcalendar",
-    "lastVersionWeTriedToDeploy": "1.0.4"
+    "lastVersionWeTriedToDeploy": "1.0.5"
   }
 }
