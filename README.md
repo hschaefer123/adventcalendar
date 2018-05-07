@@ -10,7 +10,7 @@
 
 ### [Online Demo (SAP HCP)](https://adventcalendar-p1940953245trial.dispatcher.hanatrial.ondemand.com/index.html)
 
-![Screenshot](adventcalendar.png)
+![Screenshot](./adventcalendar.png)
 
 ### Highlights
 
